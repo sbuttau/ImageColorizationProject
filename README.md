@@ -1,2 +1,46 @@
-# imagecolorization
-Image Colorization Project for Vision And Cognitive Systems course at UniPD (2022)
+# Image Colorization Project using GANs 
+
+Image colorization is a challenging problem with multiple plausible solutions. This project focuses on the implementation of Generative Adversarial Networks (GANs) for image colorization. Our experiments center around transfer learning using GANs, fine-tuning models on various datasets to achieve diverse levels of colorization for specific subjects like flowers or faces. This project was developed as part of the Vision And Cognitive Systems course at the University of Padua (2022).
+
+## Key Features
+- Transfer Learning
+- Pretraining of Generator
+- Cross-Validation on multiple Datasets
+- Accurate Domain Selection
+- Customized Loss Function
+- Qualitative and Quantitative Result Analysis
+
+## Usage
+Notebooks for this project are provided and ready to run, developed on Google Colab. However, we do not provide pre-trained models.
+
+## Training
+We initially trained the GAN on COCO and fine-tuned it on Oxford102Flowers, CelebA, and ImageNet. Check the included picture for a summary.
+
+## Training Details
+We trained two GAN Models: 
+a) GAN trained from scratch
+b) GAN with pretrained generator on COCO
+
+For both models, we fixed the following hyperparameters for training:
+- Training on COCO for 180 epochs
+- Mini-batch size: 16
+- Learning rate: 2e-4
+- Adam optimizer
+- Lambda parameter: 100 for combining loss functions
+- Validation set predictions monitored during training
+
+For branch b), we pretrained the generator for 10 epochs on COCO before actual GAN training. Fine-tuning involved 50 epochs on each target dataset with a batch size of 8.
+
+## Code
+You can find the implementation in the provided notebooks.
+
+## Dependencies
+- [fast.ai](https://www.fast.ai/)
+- [PyTorch](https://pytorch.org/)
+- [NumPy](https://numpy.org/)
+
+## License
+This project is licensed under the MIT License.
+
+<!-- Add images here using the provided code -->
+
