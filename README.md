@@ -15,7 +15,7 @@ Notebooks for this project are provided and ready to run, developed on Google Co
 
 ## Training
 We initially trained the GAN on COCO and fine-tuned it on Oxford102Flowers, CelebA, and ImageNet. 
-![Image Summary](imagecolorization/pipeline.jpg)
+![Image Summary](./pipeline.jpg)
 
 
 ## Training Details
