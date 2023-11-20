@@ -3,6 +3,13 @@
 
 Image colorization is a challenging problem with multiple plausible solutions. This project focuses on the implementation of Generative Adversarial Networks (GANs) for image colorization. Our experiments center around transfer learning using GANs, fine-tuning models on various datasets to achieve diverse levels of colorization for specific subjects like flowers or faces. This project was developed as part of the Vision And Cognitive Systems course at the University of Padua (2022).
 
+# Table of Contents
+1. [Key Features](#key-features)
+2. [Training Details](#training)
+3. [Example Images](#visual-results)
+4. [Dependencies](#dependencies)
+5. [License](#license)
+
 ## Key Features
 - Transfer Learning
 - Pretraining of Generator
@@ -16,10 +23,9 @@ Notebooks for this project are provided and ready to run, developed on Google Co
 
 ## Training
 We initially trained the GAN on COCO and fine-tuned it on Oxford102Flowers, CelebA, and ImageNet. 
+
 ![Image Summary](./pipeline.jpg)
 
-
-## Training Details
 We trained two GAN Models: 
 a) GAN trained from scratch
 b) GAN with pretrained generator on COCO
@@ -40,10 +46,6 @@ Here are some visual examples of our models.
 ![Example Output 2](./DifferentPlausible.png)
 ![Example Output 3](./flower_succ.png)
 
-
-
-## Code
-You can find the implementation in the provided notebooks.
 
 ## Dependencies
 - [fast.ai](https://www.fast.ai/)
