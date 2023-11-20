@@ -3,9 +3,13 @@
 
 Image colorization is a challenging problem with multiple plausible solutions. This project focuses on the implementation of Generative Adversarial Networks (GANs) for image colorization. Our experiments center around transfer learning using GANs, fine-tuning models on various datasets to achieve diverse levels of colorization for specific subjects like flowers or faces. This project was developed as part of the Vision And Cognitive Systems course at the University of Padua (2022).
 
-# Report
+## Report
 You can read or download our project report here: [Image Colorization Project Report (PDF)](./Image_Colorization_using_GANs.pdf)
 
+## Authors
+- Sara Buttau (https://github.com/sbuttau)
+- Salvatore Gatto (https://github.com/saso-gatto)
+- 
 # Table of Contents
 1. [Key Features](#key-features)
 2. [Training Details](#training)
@@ -58,5 +62,5 @@ Here are some visual examples of our models.
 ## License
 This project is licensed under the MIT License.
 
-<!-- Add images here using the provided code -->
+
 
