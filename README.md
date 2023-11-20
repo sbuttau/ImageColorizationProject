@@ -4,7 +4,7 @@
 Image colorization is a challenging problem with multiple plausible solutions. This project focuses on the implementation of Generative Adversarial Networks (GANs) for image colorization. Our experiments center around transfer learning using GANs, fine-tuning models on various datasets to achieve diverse levels of colorization for specific subjects like flowers or faces. This project was developed as part of the Vision And Cognitive Systems course at the University of Padua (2022).
 
 # Report
-You can read or download our project report here [Download Project Report (PDF)](./Image_Colorization_using_GANs.pdf)
+You can read or download our project report here: [Image Colorization Project Report (PDF)](./Image_Colorization_using_GANs.pdf)
 
 # Table of Contents
 1. [Key Features](#key-features)
