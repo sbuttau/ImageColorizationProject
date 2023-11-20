@@ -14,7 +14,9 @@ Image colorization is a challenging problem with multiple plausible solutions. T
 Notebooks for this project are provided and ready to run, developed on Google Colab. However, we do not provide pre-trained models.
 
 ## Training
-We initially trained the GAN on COCO and fine-tuned it on Oxford102Flowers, CelebA, and ImageNet. Check the included picture for a summary.
+We initially trained the GAN on COCO and fine-tuned it on Oxford102Flowers, CelebA, and ImageNet. 
+![Image Summary](imagecolorization/pipeline.jpg)
+
 
 ## Training Details
 We trained two GAN Models: 
