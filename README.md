@@ -33,6 +33,14 @@ For both models, we fixed the following hyperparameters for training:
 
 For branch b), we pretrained the generator for 10 epochs on COCO before actual GAN training. Fine-tuning involved 50 epochs on each target dataset with a batch size of 8.
 
+## Visual Results
+Here are some visual examples of our models. 
+![Example Output 1](./copertina.png)
+![Example Output 2](./DifferentPlausible.png)
+![Example Output 3](./flower_succ.png)
+![Example Output 4](./success_face.png)
+
+
 ## Code
 You can find the implementation in the provided notebooks.
 
